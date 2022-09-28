@@ -20,4 +20,27 @@ public class InputManager : MonoBehaviour
     {
         return Input.GetKeyDown(KeyCode.Space);
     }
+
+    public bool LeftKeyPressed()
+    {
+        return Input.GetKeyDown(KeyCode.LeftArrow);
+    }
+    public bool UpKeyPressed()
+    {
+        return Input.GetKeyDown(KeyCode.UpArrow);
+    }
+    public bool RightKeyPressed()
+    {
+        return Input.GetKeyDown(KeyCode.RightArrow);
+    }
+    public bool DownKeyPressed()
+    {
+        return Input.GetKeyDown(KeyCode.DownArrow);
+    }
+
+    public bool EnterKeyPressed()
+    {
+        return Input.GetKeyDown(KeyCode.Return);
+    }
+
 }

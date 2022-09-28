@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8f701b9a147b204d8f0344238965409
+guid: dc1d43a9790740d4a9bc8fc721b31181
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Power Up_0
+      name: PacStudent Death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 482cf6098c5c3e44f8deb1c2b31f983d
-      internalID: 2124620124
+      spriteID: 721592a73f5b58043a71b2fa3e9dbe44
+      internalID: 1690935468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_1
+      name: PacStudent Death_1
       rect:
         serializedVersion: 2
         x: 32
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d43f00c8f2c48b4aa5ab215f2ab174d
-      internalID: -1998291336
+      spriteID: 2a0d221c113602d439fc5bed0bb6a721
+      internalID: 902804924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_2
+      name: PacStudent Death_2
       rect:
         serializedVersion: 2
         x: 64
@@ -186,35 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8ca48d9e51dd34e88bb3ff6e14f965
-      internalID: 1960929276
+      spriteID: d1d8299a430463445b3b6f6b11132167
+      internalID: -1880172867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a30898c73c348344288219ca520b75a9
-      internalID: 393889238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Power Up_4
+      name: PacStudent Death_3
       rect:
         serializedVersion: 2
         x: 0
@@ -228,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 666bc3c2ae3aa914281b697c7961f56b
-      internalID: -762856599
+      spriteID: 8e1f0d623e34a564987b5e3c85bc0030
+      internalID: 688601014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_5
+      name: PacStudent Death_4
       rect:
         serializedVersion: 2
         x: 32
@@ -249,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb80897e528c7224db3464c62c933981
-      internalID: 1732606224
+      spriteID: c9287c2a61dfe6447b2c67b7885f5582
+      internalID: 967908169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_6
+      name: PacStudent Death_5
       rect:
         serializedVersion: 2
         x: 64
@@ -270,35 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f714ec80e6624ea49955eab9c15df83a
-      internalID: -464183428
+      spriteID: 911e943410b79c04f80a63e37c1405e3
+      internalID: -1039570824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfa1189a5353a674db457940afda335b
-      internalID: -1272701769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Power Up_8
+      name: PacStudent Death_6
       rect:
         serializedVersion: 2
         x: 0
@@ -312,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04c964b5c8fb9514b937cd1f5d452ca8
-      internalID: -2132995250
+      spriteID: 6a5eaa2f24887c9469ce6ffa7f201e39
+      internalID: -1951691947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_9
+      name: PacStudent Death_7
       rect:
         serializedVersion: 2
         x: 32
@@ -333,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2de98a4c3ee92c4a919c7f9c1e1506c
-      internalID: 1790607748
+      spriteID: 1b2f0f0ee09f2de44ba7a3c6b9a82c85
+      internalID: 303054748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_10
+      name: PacStudent Death_8
       rect:
         serializedVersion: 2
         x: 64
@@ -354,35 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1eead910fe4a064280c5ab43b4b776e
-      internalID: -1235817217
+      spriteID: 524d07523b6d30840a7326f5842fea47
+      internalID: -1155496758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_11
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84cd57d8f14da454fbf2fad98c513f81
-      internalID: -1927797460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Power Up_12
+      name: PacStudent Death_9
       rect:
         serializedVersion: 2
         x: 0
@@ -396,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 841cad9089a77fd4091ae3f6bdc73d8f
-      internalID: 16907451
+      spriteID: db95d97c8479f984ba0985f5eef7c8a2
+      internalID: -1497768368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_13
+      name: PacStudent Death_10
       rect:
         serializedVersion: 2
         x: 32
@@ -417,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0c1c35c0eabce94cb7a690e2beeabd0
-      internalID: -1111635000
+      spriteID: 22908776ff472d644a37600698f69893
+      internalID: 202442088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_14
+      name: PacStudent Death_11
       rect:
         serializedVersion: 2
         x: 64
@@ -438,8 +375,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0c1fb65d4e6cce499fb560701e02eb3
-      internalID: -637001090
+      spriteID: e3eea716a82f81c439680b36b61ee808
+      internalID: -433208952
       vertices: []
       indices: 
       edges: []
@@ -455,21 +392,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Power Up_8: -2132995250
-      Power Up_11: -1927797460
-      Power Up_5: 1732606224
-      Power Up_10: -1235817217
-      Power Up_6: -464183428
-      Power Up_12: 16907451
-      Power Up_1: -1998291336
-      Power Up_13: -1111635000
-      Power Up_7: -1272701769
-      Power Up_3: 393889238
-      Power Up_0: 2124620124
-      Power Up_2: 1960929276
-      Power Up_14: -637001090
-      Power Up_4: -762856599
-      Power Up_9: 1790607748
+      PacStudent Death_11: -433208952
+      PacStudent Death_0: 1690935468
+      PacStudent Death_9: -1497768368
+      PacStudent Death_7: 303054748
+      PacStudent Death_6: -1951691947
+      PacStudent Death_5: -1039570824
+      PacStudent Death_8: -1155496758
+      PacStudent Death_4: 967908169
+      PacStudent Death_2: -1880172867
+      PacStudent Death_1: 902804924
+      PacStudent Death_10: 202442088
+      PacStudent Death_3: 688601014
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

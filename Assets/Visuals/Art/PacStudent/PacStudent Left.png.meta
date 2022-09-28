@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8f701b9a147b204d8f0344238965409
+guid: 2069d8ed07b826e4ebb168ed54d8ac75
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,7 +130,112 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Power Up_0
+      name: PacStudent Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f91559268039e44949e65a3f5046ea
+      internalID: 2016219380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7bbe5dfecfd934ebad09969ea7da78
+      internalID: -1248094839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c73744d3685f14a956fbedcc9daea8
+      internalID: -222352381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb40cede48498419fb0e2163a25696
+      internalID: -2014362761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b45b6c7738241941a1a20c495853023
+      internalID: 1146544513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_5
       rect:
         serializedVersion: 2
         x: 0
@@ -144,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 482cf6098c5c3e44f8deb1c2b31f983d
-      internalID: 2124620124
+      spriteID: 3f0de25eac668ea4394819f382df8838
+      internalID: 2097598282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_1
+      name: PacStudent Left_6
       rect:
         serializedVersion: 2
         x: 32
@@ -165,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d43f00c8f2c48b4aa5ab215f2ab174d
-      internalID: -1998291336
+      spriteID: 4db851e93af7fbf4a8a1d85a55941870
+      internalID: -1602900568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_2
+      name: PacStudent Left_7
       rect:
         serializedVersion: 2
         x: 64
@@ -186,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8ca48d9e51dd34e88bb3ff6e14f965
-      internalID: 1960929276
+      spriteID: d56357ecfde1f3947aa77db5c96929c9
+      internalID: 2101302633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_3
+      name: PacStudent Left_8
       rect:
         serializedVersion: 2
         x: 96
@@ -207,14 +312,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a30898c73c348344288219ca520b75a9
-      internalID: 393889238
+      spriteID: 76da8114fd43c1149ad2f0a48a353913
+      internalID: -2099948367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_4
+      name: PacStudent Left_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a234d547e748044a2b3c8b60c8b63a
+      internalID: 793217854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_10
       rect:
         serializedVersion: 2
         x: 0
@@ -228,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 666bc3c2ae3aa914281b697c7961f56b
-      internalID: -762856599
+      spriteID: d926a9b94f4d3f047ade3149095c72c9
+      internalID: -1161201114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_5
+      name: PacStudent Left_11
       rect:
         serializedVersion: 2
         x: 32
@@ -249,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb80897e528c7224db3464c62c933981
-      internalID: 1732606224
+      spriteID: 106961eea44fcad418c0ad7561948436
+      internalID: -2146942396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_6
+      name: PacStudent Left_12
       rect:
         serializedVersion: 2
         x: 64
@@ -270,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f714ec80e6624ea49955eab9c15df83a
-      internalID: -464183428
+      spriteID: 376232c3d6176624b8715a302934bb98
+      internalID: -1496618185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_7
+      name: PacStudent Left_13
       rect:
         serializedVersion: 2
         x: 96
@@ -291,14 +417,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfa1189a5353a674db457940afda335b
-      internalID: -1272701769
+      spriteID: a22b691918ee1b146897a917123d95d9
+      internalID: 567176172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_8
+      name: PacStudent Left_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfef1a109c0231a4fbbf27bd3c016f8b
+      internalID: 729148325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_15
       rect:
         serializedVersion: 2
         x: 0
@@ -312,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04c964b5c8fb9514b937cd1f5d452ca8
-      internalID: -2132995250
+      spriteID: 68aa35ecd5ea44140bcb399d032105b2
+      internalID: 599908907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_9
+      name: PacStudent Left_16
       rect:
         serializedVersion: 2
         x: 32
@@ -333,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2de98a4c3ee92c4a919c7f9c1e1506c
-      internalID: 1790607748
+      spriteID: d069a01ed27f3d34c9a3fcafb3f84561
+      internalID: -1079635277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_10
+      name: PacStudent Left_17
       rect:
         serializedVersion: 2
         x: 64
@@ -354,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1eead910fe4a064280c5ab43b4b776e
-      internalID: -1235817217
+      spriteID: 24ddb9f16495966409752ddbc75e97c9
+      internalID: -108889680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_11
+      name: PacStudent Left_18
       rect:
         serializedVersion: 2
         x: 96
@@ -375,14 +522,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84cd57d8f14da454fbf2fad98c513f81
-      internalID: -1927797460
+      spriteID: 28287d4e34f03d048adca3098b96afde
+      internalID: 126335857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_12
+      name: PacStudent Left_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156d53f2c6f9a7b4482a30a84d8a7de5
+      internalID: 1705611185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_20
       rect:
         serializedVersion: 2
         x: 0
@@ -396,14 +564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 841cad9089a77fd4091ae3f6bdc73d8f
-      internalID: 16907451
+      spriteID: 4b2809716c93b6248b7503b34e95a12e
+      internalID: 458412094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_13
+      name: PacStudent Left_21
       rect:
         serializedVersion: 2
         x: 32
@@ -417,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0c1c35c0eabce94cb7a690e2beeabd0
-      internalID: -1111635000
+      spriteID: 4ea824031248e3645b7ffc810ddfac77
+      internalID: 1364568036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Up_14
+      name: PacStudent Left_22
       rect:
         serializedVersion: 2
         x: 64
@@ -438,8 +606,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0c1fb65d4e6cce499fb560701e02eb3
-      internalID: -637001090
+      spriteID: 8a0eb6820c2f5384d90ac6d0dcd522ae
+      internalID: 1802618620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Left_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd68b8d186a17949a2a3a13503a5cee
+      internalID: -368997796
       vertices: []
       indices: 
       edges: []
@@ -455,21 +644,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Power Up_8: -2132995250
-      Power Up_11: -1927797460
-      Power Up_5: 1732606224
-      Power Up_10: -1235817217
-      Power Up_6: -464183428
-      Power Up_12: 16907451
-      Power Up_1: -1998291336
-      Power Up_13: -1111635000
-      Power Up_7: -1272701769
-      Power Up_3: 393889238
-      Power Up_0: 2124620124
-      Power Up_2: 1960929276
-      Power Up_14: -637001090
-      Power Up_4: -762856599
-      Power Up_9: 1790607748
+      PacStudent Left_15: 599908907
+      PacStudent Left_0: 2016219380
+      PacStudent Left_20: 458412094
+      PacStudent Left_7: 2101302633
+      PacStudent Left_1: -1248094839
+      PacStudent Left_4: 1146544513
+      PacStudent Left_17: -108889680
+      PacStudent Left_13: 567176172
+      PacStudent Left_12: -1496618185
+      PacStudent Left_10: -1161201114
+      PacStudent Left_9: 793217854
+      PacStudent Left_14: 729148325
+      PacStudent Left_21: 1364568036
+      PacStudent Left_3: -2014362761
+      PacStudent Left_8: -2099948367
+      PacStudent Left_6: -1602900568
+      PacStudent Left_5: 2097598282
+      PacStudent Left_16: -1079635277
+      PacStudent Left_18: 126335857
+      PacStudent Left_11: -2146942396
+      PacStudent Left_22: 1802618620
+      PacStudent Left_23: -368997796
+      PacStudent Left_19: 1705611185
+      PacStudent Left_2: -222352381
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
