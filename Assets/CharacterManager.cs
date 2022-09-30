@@ -16,7 +16,8 @@ public class CharacterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ReadInput();
+        // For Testing Purposes Only
+        // ReadInput();
     }
 
     private void ReadInput()
