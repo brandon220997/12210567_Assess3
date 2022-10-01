@@ -198,7 +198,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 83994d5df068d354cbd6f0181b51d715, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0be02b6d3032e5d4cb06ffee6953b020, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -237,7 +237,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Purple Shield Anim
+  m_Name: GhostAnimator_Blue
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -296,7 +296,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c6613161fcfd94243bb022cb3c730ab8, type: 2}
+  m_Motion: {fileID: 7400000, guid: d8f09ac611181354fa91b8bd089471eb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -345,7 +345,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9da74818685635a41875678e8a32b9c8, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0243922ac94b5924cb62b68f423e0c97, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -399,7 +399,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3fae936110393c2428888954f0a82223, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8a3506e52ff762944b98077e5ceaa051, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

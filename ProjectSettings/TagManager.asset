@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 3789145613
+    locked: 0
+  - name: Pellet
+    uniqueID: 310310603
+    locked: 0
