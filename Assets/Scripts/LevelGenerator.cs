@@ -66,6 +66,49 @@ public class LevelGenerator : MonoBehaviour
          {2,2,2,2,2,1,5,3,3,0,4,0,0,0},
          {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
          };
+
+        //  ADDITIONAL TEST CASES:
+        // Slightly Bigger Map
+        //quadrant = new int[,]
+        //{
+        //    {1,2,2,2,2,2,2,2,2,2,2,2,2,2,7},
+        //    {2,5,5,5,5,5,5,5,5,5,5,5,5,5,4},
+        //    {2,5,3,4,4,4,3,5,3,4,4,4,3,5,4},
+        //    {2,6,4,0,0,0,4,5,4,0,0,0,4,5,4},
+        //    {2,5,3,4,4,4,3,5,3,4,4,4,3,5,3},
+        //    {2,5,5,5,5,5,5,5,5,5,5,5,5,5,5},
+        //    {2,5,3,4,4,4,3,5,3,3,5,3,4,4,4},
+        //    {2,5,4,0,0,0,4,5,4,4,5,4,0,0,0},
+        //    {2,5,3,4,4,4,3,5,4,4,5,3,4,4,3},
+        //    {2,5,5,5,5,5,5,5,4,4,5,5,5,5,4},
+        //    {1,2,2,2,2,2,1,5,4,3,4,4,3,0,4},
+        //    {0,0,0,0,0,0,2,5,4,3,4,4,3,0,3},
+        //    {0,0,0,0,0,0,2,5,4,4,0,0,0,0,0},
+        //    {0,0,0,0,0,0,2,5,4,4,0,3,4,4,0},
+        //    {2,2,2,2,2,2,1,5,3,3,0,4,0,0,0},
+        //    {0,0,0,0,0,0,0,5,0,0,0,4,0,0,0},
+        //};
+
+        // Transposed Map
+        //quadrant = new int[,]
+        //{
+        //    {1,2,2,2,2,2,2,2,2,2,1,0,0,0,2,0},
+        //    {2,5,5,6,5,5,5,5,5,5,2,0,0,0,2,0},
+        //    {7,4,4,4,3,5,3,4,3,5,2,0,0,0,2,0},
+        //    {7,4,3,0,4,5,4,0,4,5,2,0,0,0,2,0},
+        //    {2,0,4,0,4,5,4,0,4,5,2,0,0,0,2,0},
+        //    {7,4,3,0,4,5,4,0,4,5,2,0,0,0,2,0},
+        //    {7,4,4,4,3,5,3,4,3,5,1,2,2,2,1,0},
+        //    {2,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5},
+        //    {2,5,3,4,3,5,3,4,4,4,4,4,4,4,3,0},
+        //    {2,5,4,0,4,5,3,4,4,4,3,3,4,4,3,0},
+        //    {2,5,4,0,4,5,5,5,5,5,4,4,0,0,0,0},
+        //    {2,5,4,0,4,5,1,2,1,5,4,4,0,3,4,4},
+        //    {2,5,3,4,3,5,2,0,2,5,3,3,0,4,0,0},
+        //    {2,5,5,5,5,5,2,0,2,5,0,0,0,4,0,0},
+        //    {1,2,2,2,2,2,1,0,1,2,2,1,0,0,0,0},
+        //    {0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0},
+        //};
     }
 
     public void GenerateMap()
@@ -78,8 +121,11 @@ public class LevelGenerator : MonoBehaviour
         map = new GameObject("AutoMap");
         map.transform.position = inspectorGeneratorSpawnPosition;
 
-        // TODO: Quadrant Black Magic
+        // Quadrant Magic Below
         LoadMapQuadrant();
+
+        if (quadrant == null) return;
+
         levelMap = new int[quadrant.GetLength(0) * 2 - 1, quadrant.GetLength(1) * 2];
 
         LoadTopLeft();
@@ -201,17 +247,32 @@ public class LevelGenerator : MonoBehaviour
         Vector2Int up = new Vector2Int(point.x - 1, point.y);
         Vector2Int down = new Vector2Int(point.x + 1, point.y);
 
-        Vector2Int leftUp = new Vector2Int(point.x - 1, point.y - 1);
-        Vector2Int leftDown = new Vector2Int(point.x + 1, point.y - 1);
-        Vector2Int rightUp = new Vector2Int(point.x - 1, point.y + 1);
-        Vector2Int rightDown = new Vector2Int(point.x + 1, point.y + 1);
-
         if (up.y > -1 && down.y < levelMap.GetLength(1))
         {
-            if (EmptyPelletOrPowerPellet(up.x, up.y) ||
+            if (EmptyPelletOrPowerPellet(up.x, up.y) &&
                 EmptyPelletOrPowerPellet(down.x, down.y))
             {
                 gameObject.transform.localRotation = Quaternion.Euler(0, 0, 90);
+            }
+            else
+            {
+                if (EmptyPelletOrPowerPellet(left.x, left.y) &&
+                    EmptyPelletOrPowerPellet(right.x, right.y))
+                {
+                    gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
+                }
+                else
+                {
+                    if (EmptyPelletOrPowerPellet(up.x, up.y) ||
+                        EmptyPelletOrPowerPellet(down.x, down.y))
+                    {
+                        gameObject.transform.localRotation = Quaternion.Euler(0, 0, 90);
+                    }
+                    else
+                    {
+                        gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
+                    }
+                }
             }
         }
     }
@@ -284,17 +345,32 @@ public class LevelGenerator : MonoBehaviour
         Vector2Int up = new Vector2Int(point.x - 1, point.y);
         Vector2Int down = new Vector2Int(point.x + 1, point.y);
 
-        Vector2Int leftUp = new Vector2Int(point.x + 1, point.y - 1);
-        Vector2Int leftDown = new Vector2Int(point.x - 1, point.y - 1);
-        Vector2Int rightUp = new Vector2Int(point.x - 1, point.y + 1);
-        Vector2Int rightDown = new Vector2Int(point.x + 1, point.y + 1);
-
         if (up.y > -1 && down.y < levelMap.GetLength(1))
         {
-            if (EmptyPelletOrPowerPellet(up.x, up.y) ||
+            if (EmptyPelletOrPowerPellet(up.x, up.y) &&
                 EmptyPelletOrPowerPellet(down.x, down.y))
             {
                 gameObject.transform.localRotation = Quaternion.Euler(0, 0, 90);
+            }
+            else
+            {
+                if (EmptyPelletOrPowerPellet(left.x, left.y) &&
+                    EmptyPelletOrPowerPellet(right.x, right.y))
+                {
+                    gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
+                }
+                else
+                {
+                    if (EmptyPelletOrPowerPellet(up.x, up.y) ||
+                        EmptyPelletOrPowerPellet(down.x, down.y))
+                    {
+                        gameObject.transform.localRotation = Quaternion.Euler(0, 0, 90);
+                    }
+                    else
+                    {
+                        gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
+                    }
+                }
             }
         }
     }
@@ -387,11 +463,6 @@ public class LevelGenerator : MonoBehaviour
         Vector2Int right = new Vector2Int(point.x, point.y + 1);
         Vector2Int up = new Vector2Int(point.x - 1, point.y);
         Vector2Int down = new Vector2Int(point.x + 1, point.y);
-
-        Vector2Int leftUp = new Vector2Int(point.x - 1, point.y - 1);
-        Vector2Int leftDown = new Vector2Int(point.x + 1, point.y - 1);
-        Vector2Int rightUp = new Vector2Int(point.x - 1, point.y + 1);
-        Vector2Int rightDown = new Vector2Int(point.x + 1, point.y + 1);
 
         // Vertical T Junction
         if (OutsideWallOrCorner(right.x, right.y) && InsideWallOrCorner(down.x, down.y))
