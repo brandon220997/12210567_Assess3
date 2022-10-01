@@ -144,8 +144,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 721592a73f5b58043a71b2fa3e9dbe44
-      internalID: 1690935468
+      spriteID: 72b8b51287012a34c9823506d9287754
+      internalID: 498886882
       vertices: []
       indices: 
       edges: []
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a0d221c113602d439fc5bed0bb6a721
-      internalID: 902804924
+      spriteID: 4e929ed1d507a4b46922cdf82b0cfb77
+      internalID: -303336971
       vertices: []
       indices: 
       edges: []
@@ -186,8 +186,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1d8299a430463445b3b6f6b11132167
-      internalID: -1880172867
+      spriteID: 9fc6ca43f605def4d882731dbe582fe1
+      internalID: -1253318808
       vertices: []
       indices: 
       edges: []
@@ -207,8 +207,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1f0d623e34a564987b5e3c85bc0030
-      internalID: 688601014
+      spriteID: f66d12fa141350748aede74344abc068
+      internalID: 1011653998
       vertices: []
       indices: 
       edges: []
@@ -228,8 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9287c2a61dfe6447b2c67b7885f5582
-      internalID: 967908169
+      spriteID: 1b4d835c748ffe643abc42a0ff3b5bdd
+      internalID: 945103458
       vertices: []
       indices: 
       edges: []
@@ -249,8 +249,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911e943410b79c04f80a63e37c1405e3
-      internalID: -1039570824
+      spriteID: 954873f131073b647b68fa5d367745e1
+      internalID: 1854241654
       vertices: []
       indices: 
       edges: []
@@ -270,8 +270,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a5eaa2f24887c9469ce6ffa7f201e39
-      internalID: -1951691947
+      spriteID: ba573e67d3877e64e9c8f81ab194f24f
+      internalID: -681651713
       vertices: []
       indices: 
       edges: []
@@ -291,8 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b2f0f0ee09f2de44ba7a3c6b9a82c85
-      internalID: 303054748
+      spriteID: 9b9c885dd5a6e5d4483917ba07ce52e4
+      internalID: 885579356
       vertices: []
       indices: 
       edges: []
@@ -312,8 +312,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 524d07523b6d30840a7326f5842fea47
-      internalID: -1155496758
+      spriteID: a26cb525b7f1eb749a9048a55842ce0b
+      internalID: 912074041
       vertices: []
       indices: 
       edges: []
@@ -333,8 +333,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db95d97c8479f984ba0985f5eef7c8a2
-      internalID: -1497768368
+      spriteID: 32c3e363f632380459aad40abb7e9789
+      internalID: 433612738
       vertices: []
       indices: 
       edges: []
@@ -354,8 +354,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22908776ff472d644a37600698f69893
-      internalID: 202442088
+      spriteID: 357eeddbfcd4cf54eab9b1a91f71fd06
+      internalID: 1926362831
       vertices: []
       indices: 
       edges: []
@@ -375,8 +375,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3eea716a82f81c439680b36b61ee808
-      internalID: -433208952
+      spriteID: cf12e819fe2254a45be24c1ae3762c02
+      internalID: 765622132
       vertices: []
       indices: 
       edges: []
@@ -392,18 +392,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PacStudent Death_11: -433208952
-      PacStudent Death_0: 1690935468
-      PacStudent Death_9: -1497768368
-      PacStudent Death_7: 303054748
-      PacStudent Death_6: -1951691947
-      PacStudent Death_5: -1039570824
-      PacStudent Death_8: -1155496758
-      PacStudent Death_4: 967908169
-      PacStudent Death_2: -1880172867
-      PacStudent Death_1: 902804924
-      PacStudent Death_10: 202442088
-      PacStudent Death_3: 688601014
+      PacStudent Death_11: 765622132
+      PacStudent Death_0: 498886882
+      PacStudent Death_9: 433612738
+      PacStudent Death_7: 885579356
+      PacStudent Death_6: -681651713
+      PacStudent Death_5: 1854241654
+      PacStudent Death_8: 912074041
+      PacStudent Death_4: 945103458
+      PacStudent Death_2: -1253318808
+      PacStudent Death_1: -303336971
+      PacStudent Death_10: 1926362831
+      PacStudent Death_3: 1011653998
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
