@@ -25,9 +25,23 @@ public class LevelGenerator : MonoBehaviour
     private int[,] quadrant;
     private int[,] levelMap;
 
+    [SerializeField] private Vector2 inspectorGeneratorSpawnPosition = new Vector2(0, -2);
+
     // Start is called before the first frame update
     void Start()
     {
+        // Replace Manual Map Spawn Position
+        map = GameObject.Find("ManualMap");
+        if (map != null)
+        {
+            inspectorGeneratorSpawnPosition = map.transform.position;
+            DestroyImmediate(map);
+        }
+        else
+        {
+            inspectorGeneratorSpawnPosition = new Vector2(0, -2);
+        }
+
         LoadMapQuadrant();
         GenerateMap();
     }
@@ -62,7 +76,7 @@ public class LevelGenerator : MonoBehaviour
         if (map != null) DestroyImmediate(map);
 
         map = new GameObject("AutoMap");
-        map.transform.position = new Vector2(30, -2);
+        map.transform.position = inspectorGeneratorSpawnPosition;
 
         // TODO: Quadrant Black Magic
         LoadMapQuadrant();

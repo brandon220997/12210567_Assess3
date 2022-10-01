@@ -27119,6 +27119,7 @@ GameObject:
   - component: {fileID: 1253089363}
   - component: {fileID: 1253089362}
   - component: {fileID: 1253089365}
+  - component: {fileID: 1253089366}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -27180,6 +27181,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19a2520d7328dbc4ca55af3e75fd3911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1253089366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253089361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71543b8cf9a98214bbf544fae9c5a87f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OutsideWall: {fileID: 8590991705488430736, guid: 02ef9512f4570f449818142eb51f2c73, type: 3}
+  OutsideCorner: {fileID: 2910063328275885922, guid: 548c628e5e6f5004db7f3fa92dc45d5f, type: 3}
+  InsideWall: {fileID: 3448481948045652228, guid: ebbd36174f9a7024385e966edd7414cc, type: 3}
+  InsideCorner: {fileID: 1356609106848718575, guid: 0b3986638130ee54481e1de20b2485fb, type: 3}
+  TJunction: {fileID: 4828320521952988969, guid: 7a9fe2fc215a05b449f195e7effa599c, type: 3}
+  Pellet: {fileID: 2527464647534487205, guid: 0dd7452a0e9140e488bab88de51072a7, type: 3}
+  PowerPellet: {fileID: 8347020642812314376, guid: 0a784f5bee491294dbe7a43b7736465d, type: 3}
+  inspectorGeneratorSpawnPosition: {x: 30, y: -2}
 --- !u!1001 &1253424554
 PrefabInstance:
   m_ObjectHideFlags: 0

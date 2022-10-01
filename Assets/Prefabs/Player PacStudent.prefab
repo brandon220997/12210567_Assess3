@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6030462237575111115
 SpriteRenderer:
@@ -73,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -505821683
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1850113715, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
+  m_Sprite: {fileID: -926920178, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 0}
+  audioManager: {fileID: 0}
   tweener: {fileID: 0}
+  MoveTime: 0.3
   movementList: 010000000100000001000000010000000100000003000000030000000300000003000000000000000000000000000000000000000000000002000000020000000200000002000000
-  moveTime: 3
