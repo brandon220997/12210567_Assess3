@@ -14,19 +14,23 @@ public enum Movement
 public class CharacterManager : MonoBehaviour
 {
     public InputManager input;
+    public AudioManager audioManager;
     public Tweener tweener;
     private Animator animator;
+
+    [SerializeField]
+    public float MoveTime = 0.3f;
+    private float moveTime = 0.3f;
 
     public List<Movement> movementList = new List<Movement>();
     private Movement currentMovement = Movement.MoveUp;
     private int nextMoveIndex = 0;
 
-    public float moveTime = 3f;
-
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        moveTime = MoveTime;
     }
 
     // Update is called once per frame
@@ -61,6 +65,8 @@ public class CharacterManager : MonoBehaviour
             if(nextMove != currentMovement) animator.SetTrigger(nextMove.ToString());
             currentMovement = nextMove;
             nextMoveIndex++;
+
+            audioManager.sfx.Play();
         }
     }
 

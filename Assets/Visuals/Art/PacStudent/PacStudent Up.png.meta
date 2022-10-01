@@ -130,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PacStudent_0
+      name: PacStudent Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66aaadc8ac4c37141ab77f5ec79675f7
-      internalID: -1850113715
+      spriteID: 94d7cfe7c446b7d43bb9230201675255
+      internalID: -926920178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_1
+      name: PacStudent Up_1
       rect:
         serializedVersion: 2
         x: 32
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b42c0b0cdf67a074883df03594d5b913
-      internalID: 1930437075
+      spriteID: 77cebe7442b9dcf4b992dccfd7c8057d
+      internalID: 625578981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_2
+      name: PacStudent Up_2
       rect:
         serializedVersion: 2
         x: 64
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5998582ddff1d7d48b91800f37013cc1
-      internalID: -230374905
+      spriteID: bcd60270dd5507f40a85c281fe2a5b56
+      internalID: 1994095917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_3
+      name: PacStudent Up_3
       rect:
         serializedVersion: 2
         x: 96
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ba1b05e525ce741ba71ee2c5920383
-      internalID: -1549398474
+      spriteID: 970763f86b40c4f4b9e145d46f94bc4e
+      internalID: -2080343542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_4
+      name: PacStudent Up_4
       rect:
         serializedVersion: 2
         x: 128
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1566e2951988669458355592f161aedf
-      internalID: -2081767718
+      spriteID: a30d546bfdd85bd448ba3c31d5e37213
+      internalID: -995164364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_5
+      name: PacStudent Up_5
       rect:
         serializedVersion: 2
         x: 0
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34247a97fb66204fb3662d96c0ccd90
-      internalID: 1919248966
+      spriteID: 0e2f87211feb7434c85a2ed0118f28fe
+      internalID: -651085940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_6
+      name: PacStudent Up_6
       rect:
         serializedVersion: 2
         x: 32
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 956af0df0c6b5f44e8ff0c8f9f7d8f06
-      internalID: 895670458
+      spriteID: 5f9bf29d1c305b04b9a621776a7386b7
+      internalID: -1345561399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_7
+      name: PacStudent Up_7
       rect:
         serializedVersion: 2
         x: 64
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da81b43465cc7294090f357698854404
-      internalID: -2055550034
+      spriteID: 601acce6672370e4c851393c6bcafe39
+      internalID: -1985267214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_8
+      name: PacStudent Up_8
       rect:
         serializedVersion: 2
         x: 96
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2e8a524f720a394996417bfee9b323d
-      internalID: -1220570744
+      spriteID: 8ba5195ba05be8d4dadf496f03bb872e
+      internalID: 1613280875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_9
+      name: PacStudent Up_9
       rect:
         serializedVersion: 2
         x: 128
@@ -333,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ebe9da4639b1241a429424372540a6
-      internalID: -287991065
+      spriteID: 1385d54fbc714974491df456de31d5a2
+      internalID: 5856463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_10
+      name: PacStudent Up_10
       rect:
         serializedVersion: 2
         x: 0
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 465f6799dabff2e49a92d54f082ca25e
-      internalID: 337327964
+      spriteID: fed57b1fcb173c047bd9dd16b07586a1
+      internalID: -1957001633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_11
+      name: PacStudent Up_11
       rect:
         serializedVersion: 2
         x: 32
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f384c7a554b238468c5fbd25798bcd6
-      internalID: -385190375
+      spriteID: 749ef3babd8cdb44a9e3634e5332e50f
+      internalID: 455146151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_12
+      name: PacStudent Up_12
       rect:
         serializedVersion: 2
         x: 64
@@ -396,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb669eabff00359488768fc888091f9d
-      internalID: 1824387419
+      spriteID: 1043577ebe7289a4ca09788234726950
+      internalID: 825980633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_13
+      name: PacStudent Up_13
       rect:
         serializedVersion: 2
         x: 96
@@ -417,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7535ab7256740874da7b63abe9bd268f
-      internalID: 537136833
+      spriteID: 6750ede03b80dee4aad6ae74938cf9d2
+      internalID: -39468706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_14
+      name: PacStudent Up_14
       rect:
         serializedVersion: 2
         x: 128
@@ -438,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a00066732026b04a9dc234a1895d44c
-      internalID: -1790023460
+      spriteID: b132fd8d65d25db43820cdcf482cc825
+      internalID: 369689338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_15
+      name: PacStudent Up_15
       rect:
         serializedVersion: 2
         x: 0
@@ -459,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041a949cc99cc6b449b3bac95053318e
-      internalID: 1648770909
+      spriteID: 513cb76ce92409f48a393ae9c16fa82b
+      internalID: -542274189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_16
+      name: PacStudent Up_16
       rect:
         serializedVersion: 2
         x: 32
@@ -480,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e320db9c237714e97201a0e335e3ab
-      internalID: 657668396
+      spriteID: 0c1b1bec25a40174c936b193ef55affd
+      internalID: 1861075840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_17
+      name: PacStudent Up_17
       rect:
         serializedVersion: 2
         x: 64
@@ -501,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9319a94279b011e4da4c37280f1c8a34
-      internalID: 368814795
+      spriteID: 1905f993a529151489c4793d5efaf0a7
+      internalID: -897046910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_18
+      name: PacStudent Up_18
       rect:
         serializedVersion: 2
         x: 96
@@ -522,14 +522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16aca93c5c2e5a349b7dbb3837bc1b16
-      internalID: -713837682
+      spriteID: d7abea314124bfa4eb085484558b599a
+      internalID: 2095874238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_19
+      name: PacStudent Up_19
       rect:
         serializedVersion: 2
         x: 128
@@ -543,14 +543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeb55a0024fe8a94e8002e115ea17817
-      internalID: -120082265
+      spriteID: 06f46083f477af0488f92ca60ad46a3c
+      internalID: -1964813873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_20
+      name: PacStudent Up_20
       rect:
         serializedVersion: 2
         x: 0
@@ -564,14 +564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a669c2fa3640984479db41466e96ec42
-      internalID: -1063789644
+      spriteID: 973d90f60ecea02478ceaa64975282c0
+      internalID: 1637084599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_21
+      name: PacStudent Up_21
       rect:
         serializedVersion: 2
         x: 32
@@ -585,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb295cb03dd7764886bbe927fc84610
-      internalID: -66005355
+      spriteID: ebe94e5382b28eb4494ff41f7f6d1f29
+      internalID: 1926968525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_22
+      name: PacStudent Up_22
       rect:
         serializedVersion: 2
         x: 64
@@ -606,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7501404f9a866104f95f3cf3ff548ffd
-      internalID: -1414491266
+      spriteID: f2d0e42d00ac52a42b5112ddd620e149
+      internalID: -2098145060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_23
+      name: PacStudent Up_23
       rect:
         serializedVersion: 2
         x: 96
@@ -627,8 +627,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49cdfbd3d78bb7649ae6166e6c4e3035
-      internalID: -554624294
+      spriteID: d1a32e25963693f4cadfe3c2f6422ae7
+      internalID: 1316987811
       vertices: []
       indices: 
       edges: []
@@ -644,30 +644,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PacStudent_18: -713837682
-      PacStudent_22: -1414491266
-      PacStudent_2: -230374905
-      PacStudent_4: -2081767718
-      PacStudent_12: 1824387419
-      PacStudent_8: -1220570744
-      PacStudent_6: 895670458
-      PacStudent_3: -1549398474
-      PacStudent_21: -66005355
-      PacStudent_1: 1930437075
-      PacStudent_11: -385190375
-      PacStudent_14: -1790023460
-      PacStudent_20: -1063789644
-      PacStudent_23: -554624294
-      PacStudent_13: 537136833
-      PacStudent_5: 1919248966
-      PacStudent_0: -1850113715
-      PacStudent_7: -2055550034
-      PacStudent_17: 368814795
-      PacStudent_15: 1648770909
-      PacStudent_10: 337327964
-      PacStudent_16: 657668396
-      PacStudent_19: -120082265
-      PacStudent_9: -287991065
+      PacStudent Up_20: 1637084599
+      PacStudent Up_21: 1926968525
+      PacStudent Up_8: 1613280875
+      PacStudent Up_3: -2080343542
+      PacStudent Up_14: 369689338
+      PacStudent Up_10: -1957001633
+      PacStudent Up_4: -995164364
+      PacStudent Up_15: -542274189
+      PacStudent Up_16: 1861075840
+      PacStudent Up_1: 625578981
+      PacStudent Up_7: -1985267214
+      PacStudent Up_12: 825980633
+      PacStudent Up_9: 5856463
+      PacStudent Up_6: -1345561399
+      PacStudent Up_23: 1316987811
+      PacStudent Up_13: -39468706
+      PacStudent Up_5: -651085940
+      PacStudent Up_11: 455146151
+      PacStudent Up_17: -897046910
+      PacStudent Up_2: 1994095917
+      PacStudent Up_19: -1964813873
+      PacStudent Up_18: 2095874238
+      PacStudent Up_0: -926920178
+      PacStudent Up_22: -2098145060
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

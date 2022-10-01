@@ -3393,7 +3393,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1850113715, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
+  m_Sprite: {fileID: -926920178, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16528,7 +16528,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1850113715, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
+  m_Sprite: {fileID: -926920178, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21703,9 +21703,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 1253089362}
+  audioManager: {fileID: 1727292038}
   tweener: {fileID: 1253089365}
+  MoveTime: 0.3
   movementList: 010000000100000001000000010000000100000003000000030000000300000003000000000000000000000000000000000000000000000002000000020000000200000002000000
-  moveTime: 3
 --- !u!95 &1047250185
 Animator:
   serializedVersion: 4
@@ -21765,9 +21766,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -505821683
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1850113715, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
+  m_Sprite: {fileID: -926920178, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -32561,7 +32562,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f33d426041a694d4aba7c98b94629458, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
