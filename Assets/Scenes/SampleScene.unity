@@ -49549,7 +49549,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047250183}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6326048104dba644ba7821b8145fde0e, type: 3}
   m_Name: 
@@ -49557,7 +49557,7 @@ MonoBehaviour:
   input: {fileID: 1253089362}
   audioManager: {fileID: 1727292038}
   tweener: {fileID: 1253089365}
-  MoveTime: 0.3
+  MoveTime: 0.2
   movementList: 010000000100000001000000010000000100000003000000030000000300000003000000000000000000000000000000000000000000000002000000020000000200000002000000
 --- !u!95 &1047250185
 Animator:
