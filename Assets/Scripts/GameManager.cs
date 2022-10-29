@@ -11,6 +11,12 @@ public enum RoundState
 
 public class GameManager : MonoBehaviour
 {
+    public Transform Cherry;
+    public Transform mainCamera;
+
+    private float cherryInterval = 1f;
+    private float cherryTime = 0;
+
     public AudioManager audioManager;
     public InputManager inputManager;
 
@@ -56,11 +62,52 @@ public class GameManager : MonoBehaviour
 
     private void RunRound()
     {
+        cherryTime += Time.deltaTime;
+        if(cherryTime > cherryInterval)
+        {
+            SpawnCherry();
+            cherryTime = 0;
+        }
+
         if (inputManager.SpacePressed())
         {
-            audioManager.ChangeBGM();
+            // audioManager.ChangeBGM();
         }
 
         audioManager.PlayBGM();
+    }
+
+    private void SpawnCherry()
+    {
+        Transform instance = Instantiate(Cherry);
+        instance.GetComponent<CherryController>().tweener = GetComponent<Tweener>();
+        instance.GetComponent<CherryController>().levelGenerator = GetComponent<LevelGenerator>();
+
+        if(Random.Range(0, 2) == 1)
+        {
+            if(Random.Range(0,2) == 1)
+            {
+                instance.position = Camera.main.ViewportToWorldPoint(new Vector3(-0.1f, Random.Range(0.48f, 0.52f), 1f));
+                instance.GetComponent<CherryController>().SetMovement = Movement.MoveRight;
+            }
+            else
+            {
+                instance.position = Camera.main.ViewportToWorldPoint(new Vector3(1.1f, Random.Range(0.48f, 0.52f), 1f));
+                instance.GetComponent<CherryController>().SetMovement = Movement.MoveLeft;
+            }
+        }
+        else
+        {
+            if (Random.Range(0, 2) == 1)
+            {
+                instance.position = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0.48f, 0.52f), -0.1f, 1f));
+                instance.GetComponent<CherryController>().SetMovement = Movement.MoveUp;
+            }
+            else
+            {
+                instance.position = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0.48f, 0.52f), 1.1f, 1f));
+                instance.GetComponent<CherryController>().SetMovement = Movement.MoveDown;
+            }
+        }
     }
 }

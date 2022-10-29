@@ -18,13 +18,13 @@ public class Tweener : MonoBehaviour
     {
         for (int i = activeTweens.Count - 1; i >= 0; i--)
         {
-            if (Vector3.Distance(activeTweens[i].Target.position, activeTweens[i].EndPos) > 0.001f)
+            if (Vector3.Distance(activeTweens[i].Target.localPosition, activeTweens[i].EndPos) > 0.0000001f)
             {
-                activeTweens[i].Target.position = Vector3.Lerp(activeTweens[i].StartPos, activeTweens[i].EndPos, (Time.time - activeTweens[i].StartTime) / activeTweens[i].Duration);
+                activeTweens[i].Target.localPosition = Vector3.Lerp(activeTweens[i].StartPos, activeTweens[i].EndPos, (Time.time - activeTweens[i].StartTime) / activeTweens[i].Duration);
             }
             else
             {
-                activeTweens[i].Target.position = activeTweens[i].EndPos;
+                activeTweens[i].Target.localPosition = activeTweens[i].EndPos;
                 activeTweens.RemoveAt(i);
             }
         }

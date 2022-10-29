@@ -7,23 +7,15 @@ public class LevelGenerator : MonoBehaviour
 {
     // Walls
     public GameObject OutsideWall;
-
     public GameObject OutsideCorner;
-
     public GameObject InsideWall;
-
     public GameObject InsideCorner;
-
     public GameObject TJunction;
-
     public GameObject Pellet;
-
     public GameObject PowerPellet;
-
     public GameObject Square;
 
     private GameObject map;
-
     private int[,] quadrant;
     private int[,] levelMap;
 
@@ -41,7 +33,7 @@ public class LevelGenerator : MonoBehaviour
         }
         else
         {
-            inspectorGeneratorSpawnPosition = new Vector2(0, -2);
+            inspectorGeneratorSpawnPosition = new Vector2(0, 0);
         }
 
         LoadMapQuadrant();
@@ -459,5 +451,10 @@ public class LevelGenerator : MonoBehaviour
         {
             gameObject.transform.localRotation = Quaternion.Euler(180, 0, 270);
         }
+    }
+
+    public int[,] GetLeveLMap()
+    {
+        return levelMap;
     }
 }

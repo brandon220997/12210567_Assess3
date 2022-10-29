@@ -13,11 +13,17 @@ public enum BGMState
 
 public class AudioManager : MonoBehaviour
 {
+    [Range(0f, 1f)]
+    public float MusicVolume = 1f;
+
     public AudioSource intro;
     public AudioSource normal;
     public AudioSource poweredUp;
     public AudioSource enemyEaten;
     public AudioSource sfx;
+
+    public List<AudioClip> sfxClips;
+    public Dictionary<string, AudioClip> sfxClipDictionary;
 
     private bool introStarted = false;
 
@@ -26,13 +32,11 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        sfxClipDictionary = new Dictionary<string, AudioClip>();
+        sfxClips.ForEach(ac =>
+        {
+            sfxClipDictionary.Add(ac.name, ac);
+        });
     }
 
     public bool IntroPlayed()
@@ -97,8 +101,8 @@ public class AudioManager : MonoBehaviour
     {
         intro.Stop();
 
-        if(!normal.isPlaying) normal.Play();
-        normal.volume = 1;
+        if (!normal.isPlaying) normal.Play();
+        normal.volume = MusicVolume;
 
         if (!poweredUp.isPlaying) poweredUp.Play();
         poweredUp.volume = 0;
@@ -115,7 +119,7 @@ public class AudioManager : MonoBehaviour
         normal.volume = 0;
 
         if (!poweredUp.isPlaying) poweredUp.Play();
-        poweredUp.volume = 1;
+        poweredUp.volume = MusicVolume;
 
         if (!enemyEaten.isPlaying) enemyEaten.Play();
         enemyEaten.volume = 0;
@@ -130,6 +134,14 @@ public class AudioManager : MonoBehaviour
         poweredUp.volume = 0;
 
         if (!enemyEaten.isPlaying) enemyEaten.Play();
-        enemyEaten.volume = 1;
+        enemyEaten.volume = MusicVolume;
+    }
+
+    public void PlayAudioClip(string name)
+    {
+        if (sfxClipDictionary.ContainsKey(name))
+        {
+            sfx.PlayOneShot(sfxClipDictionary[name]);
+        }
     }
 }
