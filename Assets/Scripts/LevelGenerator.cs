@@ -20,6 +20,8 @@ public class LevelGenerator : MonoBehaviour
 
     public GameObject PowerPellet;
 
+    public GameObject Square;
+
     private GameObject map;
 
     private int[,] quadrant;
@@ -89,6 +91,11 @@ public class LevelGenerator : MonoBehaviour
         LoadTopRight();
         LoadBottomLeft();
         LoadBottomRight();
+
+        Vector3 mapCenter = new Vector3((levelMap.GetLength(1) - 1f) / 2f , -(levelMap.GetLength(0) - 1f) / 2f);
+        GameObject blackground = Instantiate(Square,map.transform, false);
+        blackground.transform.localPosition = mapCenter;
+        blackground.transform.localScale = new Vector3(levelMap.GetLength(1) * 2f, levelMap.GetLength(0) * 2f);
 
         LoadSprites();
     }

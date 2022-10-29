@@ -3910,6 +3910,7 @@ GameObject:
   - component: {fileID: 2110369693}
   - component: {fileID: 2110369692}
   - component: {fileID: 2110369691}
+  - component: {fileID: 2110369695}
   - component: {fileID: 2110369694}
   m_Layer: 5
   m_Name: Level 1
@@ -3982,7 +3983,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2110369692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2110369695}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: LoadNewScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SampleScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2110369692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,3 +4050,15 @@ MonoBehaviour:
   shieldAnimator2: {fileID: 1081078890}
   shieldAnimator3: {fileID: 286834338}
   shieldAnimator4: {fileID: 450895193}
+--- !u!114 &2110369695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110369689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa12ebcfa96374f49be23b4f08048200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
