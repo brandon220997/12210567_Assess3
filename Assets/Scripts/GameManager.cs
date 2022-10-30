@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     private float cherryTime = 0;
 
     private float scaredInterval = 10f;
-    private float scaredTime = 0f;
+    public float scaredTime = 0f;
 
     private float startInterval = 3f;
     private float startTimer = 0f;
