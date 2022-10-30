@@ -47,4 +47,15 @@ public class Tweener : MonoBehaviour
     {
         return activeTweens.Exists(x => x.Target == target);
     }
+
+    public void RemoveTween(Transform targetObject)
+    {
+        for (int i = activeTweens.Count - 1; i >= 0; i--)
+        {
+            if (activeTweens[i].Target == targetObject)
+            {
+                activeTweens.RemoveAt(i);
+            }
+        }
+    }
 }

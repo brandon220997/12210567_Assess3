@@ -25,7 +25,7 @@ public class AudioManager : MonoBehaviour
     public List<AudioClip> sfxClips;
     public Dictionary<string, AudioClip> sfxClipDictionary;
 
-    private bool introStarted = false;
+    public bool introStarted = false;
 
     public static BGMState currentBGMState = BGMState.None;
 

@@ -42,5 +42,4 @@ public class InputManager : MonoBehaviour
     {
         return Input.GetKeyDown(KeyCode.Return);
     }
-
 }

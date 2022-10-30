@@ -5,6 +5,7 @@ using UnityEngine;
 
 public enum Movement
 {
+    None,
     MoveLeft,
     MoveRight,
     MoveUp,
