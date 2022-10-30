@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: -505821683
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -926920178, guid: f70ca3d7d704c1347b0c5a1f96a3ab16, type: 3}
+  m_Sprite: {fileID: 381931707, guid: fb602bbec8cc4a34880250a7bd608770, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,8 +125,11 @@ MonoBehaviour:
   tweener: {fileID: 0}
   levelGenerator: {fileID: 0}
   audioManager: {fileID: 0}
+  gameManager: {fileID: 0}
   dirt: {fileID: 8581345436404731855, guid: 5c98331c49be5f24c8cd5b4f87d8ff66, type: 3}
   hitParticle: {fileID: 7877152134368714926, guid: 1d7b876a08271e24e8d3de51622c546d, type: 3}
+  deathParticle: {fileID: 5083920720904753424, guid: 3ae5dd9babe021d4b985f6f37a13ce4e, type: 3}
+  spawnPosition: {x: 1, y: -1, z: 0}
   MoveTime: 0.2
 --- !u!114 &7073946562765345151
 MonoBehaviour:

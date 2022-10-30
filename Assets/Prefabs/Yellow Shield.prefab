@@ -266,14 +266,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3527367170972177141}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 13, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3527367170253234772}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3527367170972177099
 SpriteRenderer:
@@ -418,3 +418,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf2962a7bd7742740969ac06c28f0b58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tweener: {fileID: 0}
+  levelGenerator: {fileID: 0}
+  gameManager: {fileID: 0}
+  Player: {fileID: 0}
+  Teleporter1: {fileID: 0}
+  Teleporter2: {fileID: 0}
+  Center: []
+  spawnLocation: {x: 16, y: -13, z: 0}
+  MoveTime: 0.3
+  ghostBehaviour: 1
