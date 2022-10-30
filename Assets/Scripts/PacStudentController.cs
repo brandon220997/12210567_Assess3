@@ -132,11 +132,6 @@ public class PacStudentController : MonoBehaviour
                     animStateController.ChangeAnimationState(currentInput.ToString());
                     PlayMovementAudioClip(nextPosition);
                 }
-                //else
-                //{
-                //    if (animStateController.IsPlaying()) PlayMovementAudioClip(nextPosition);
-                //    animStateController.StopAnimation();
-                //}
             }
         }
     }

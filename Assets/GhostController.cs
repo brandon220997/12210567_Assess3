@@ -77,12 +77,10 @@ public class GhostController : MonoBehaviour
 
                 if (gameManager.scaredTime > 0f)
                 {
-                    tag = "Scared";
                     ghostBehaviour = Behaviour.One;
                 }
                 else
                 {
-                    tag = "Walking";
                     ghostBehaviour = defaultBehaviour;
                 }
             }
@@ -110,20 +108,6 @@ public class GhostController : MonoBehaviour
                 }
             }
         }
-
-
-
-        //if (tag == "Dead")
-        //{
-        //    if (DeadTimer > 0f)
-        //    {
-        //        DeadTimer -= Time.deltaTime;
-        //    }
-        //    else
-        //    {
-        //        SetToWalk();
-        //    }
-        //}
     }
 
     private void ComputeInput()
@@ -362,17 +346,6 @@ public class GhostController : MonoBehaviour
         // Cross Reference with Grid
         int[,] levelMap = levelGenerator.GetLeveLMap();
 
-        //List<Vector2Int> quadrantTL = new List<Vector2Int>();
-        //List<Vector2Int> quadrantTR = new List<Vector2Int>();
-        //List<Vector2Int> quadrantBL = new List<Vector2Int>();
-        //List<Vector2Int> quadrantBR = new List<Vector2Int>();
-
-        //vectors.Add(CalculateNextPosition(Movement.MoveLeft, position));
-        //vectors.Add(CalculateNextPosition(Movement.MoveRight, position));
-        //vectors.Add(CalculateNextPosition(Movement.MoveUp, position));
-        //vectors.Add(CalculateNextPosition(Movement.MoveDown, position));
-
-
         Vector2Int topleft = new Vector2Int(0, 0);
         Vector2Int topright = new Vector2Int(levelMap.GetLength(1) - 1, 0);
         Vector2Int bottomright = new Vector2Int(levelMap.GetLength(1) -1 , -(levelMap.GetLength(0) - 1));
@@ -586,7 +559,6 @@ public class GhostController : MonoBehaviour
         tag = "Dead";
         state = GhostState.Dead;
         animStateController.ChangeAnimationState("Dead Shield");
-        DeadTimer = DeadInterval;
     }
 
     public void SetToWalk()

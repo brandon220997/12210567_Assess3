@@ -96,20 +96,30 @@ public class GameManager : MonoBehaviour
 
         hudManager.SetScareTime(Mathf.Ceil(scaredTime));
 
-        if (scaredTime <= 3 && scaredTime > 0)
-        {
-            Ghosts.ForEach(g =>
-            {
-                if (g.tag == "Scared")
-                {
-                    g.GetComponent<AnimationStateController>().ChangeAnimationState("Shield Recovery");
-                }
-            });
-        }
-
         if (scaredTime > 0)
         {
             scaredTime -= Time.deltaTime;
+
+            if (scaredTime <= 3 && scaredTime > 0)
+            {
+                Ghosts.ForEach(g =>
+                {
+                    if (g.tag == "Scared")
+                    {
+                        g.GetComponent<AnimationStateController>().ChangeAnimationState("Shield Recovery");
+                    }
+                });
+            }
+            else
+            {
+                Ghosts.ForEach(g =>
+                {
+                    if (g.tag != "Dead")
+                    {
+                        g.GetComponent<GhostController>().SetToScared();
+                    }
+                });
+            }
         }
         else
         {
@@ -123,6 +133,8 @@ public class GameManager : MonoBehaviour
 
             AudioManager.currentBGMState = BGMState.Normal;
         }
+
+
 
         cherryTime += Time.deltaTime;
         if (cherryTime > cherryInterval)
