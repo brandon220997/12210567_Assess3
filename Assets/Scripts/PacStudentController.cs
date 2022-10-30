@@ -17,6 +17,7 @@ public class PacStudentController : MonoBehaviour
     public GameManager gameManager;
     public ParticleSystem dirt;
     public ParticleSystem hitParticle;
+    public ParticleSystem deathParticle;
 
     public Vector3 spawnPosition;
 
@@ -186,35 +187,7 @@ public class PacStudentController : MonoBehaviour
 
     private void PlayMovementAudioClip(Vector2Int nextPosition)
     {
-        //// Cross Reference with Grid
-        //int[,] levelMap = levelGenerator.GetLeveLMap();
-
-        //if (nextPosition.x < 0 || -nextPosition.y < 0 ||
-        //    nextPosition.x >= levelMap.GetLength(1) || -nextPosition.y >= levelMap.GetLength(0))
-        //{
-        //    return;
-        //}
-
-
-        //if (levelMap[-nextPosition.y, nextPosition.x] == 0)
-        //{
         audioManager.PlayAudioClip("Movement");
-        //}
-        //else if (levelMap[-nextPosition.y, nextPosition.x] == 5)
-        //{
-        //    audioManager.PlayAudioClip("Pickup_Coin");
-        //}
-        //else if (levelMap[-nextPosition.y, nextPosition.x] == 6)
-        //{
-        //    audioManager.PlayAudioClip("Pickup_Powerup");
-        //}
-        //else if (levelMap[-nextPosition.y, nextPosition.x] == 1 ||
-        //    levelMap[-nextPosition.y, nextPosition.x] == 2 ||
-        //    levelMap[-nextPosition.y, nextPosition.x] == 3 ||
-        //    levelMap[-nextPosition.y, nextPosition.x] == 4)
-        //{
-        //    audioManager.PlayAudioClip("Hit_Wall");
-        //}
     }
 
     private void SpawnDirt(Movement input)
@@ -329,6 +302,14 @@ public class PacStudentController : MonoBehaviour
             gameManager.AddScore(10);
             audioManager.PlayAudioClip("Pickup_Coin");
             Destroy(collision.gameObject);
+
+            if (GameObject.FindGameObjectsWithTag("Pellet").Length - 1 <= 0)
+            {
+                if (GameObject.FindGameObjectsWithTag("PowerPellet").Length - 1 <= 0)
+                {
+                    gameManager.EndGame();
+                }
+            }
         }
 
         if (collision.tag == "BonusPellet")
@@ -348,6 +329,14 @@ public class PacStudentController : MonoBehaviour
             audioManager.PlayAudioClip("Pickup_Powerup");
             gameManager.ScareGhosts();
             Destroy(collision.gameObject);
+
+            if (GameObject.FindGameObjectsWithTag("Pellet").Length - 1 <= 0)
+            {
+                if (GameObject.FindGameObjectsWithTag("PowerPellet").Length - 1 <= 0)
+                {
+                    gameManager.EndGame();
+                }
+            }
         }
 
         if (collision.tag == "Walking")
@@ -356,6 +345,7 @@ public class PacStudentController : MonoBehaviour
 
             audioManager.PlayAudioClip("Death_Sound");
             animStateController.ChangeAnimationState("Death");
+            Instantiate(deathParticle, transform.position, Quaternion.Euler(0, 0, 0));
             tweener.RemoveTween(transform);
             state = PacState.Dead;
             respawnTime = respawnInterval;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum RoundState
 {
@@ -36,6 +37,9 @@ public class GameManager : MonoBehaviour
     private int totalScore = 0;
     private int lifeCount = 3;
 
+    private float gameOverInterval = 3f;
+    private float gameOverTimer = 0f;
+
     private void Awake()
     {
         currentRoundState = RoundState.Intro;
@@ -63,7 +67,7 @@ public class GameManager : MonoBehaviour
 
         if (currentRoundState == RoundState.Over)
         {
-            // RunRound();
+            RunOver();
         }
     }
 
@@ -71,7 +75,7 @@ public class GameManager : MonoBehaviour
     {
         if (Mathf.Ceil(startTimer) >= 0f)
         {
-            if(!audioManager.introStarted) audioManager.PlayIntro();
+            if (!audioManager.introStarted) audioManager.PlayIntro();
             hudManager.SetIntro(Mathf.Ceil(startTimer));
             startTimer -= Time.deltaTime;
         }
@@ -84,11 +88,11 @@ public class GameManager : MonoBehaviour
 
     private void RunRound()
     {
-        if(lifeCount > 0f)
-        {
-            highScoreTimer += Time.deltaTime;
-            hudManager.DisplayTime(highScoreTimer);
-        }
+        //if(lifeCount > 0f)
+        //{
+        highScoreTimer += Time.deltaTime;
+        hudManager.DisplayTime(highScoreTimer);
+        //}
 
         hudManager.SetScareTime(Mathf.Ceil(scaredTime));
 
@@ -128,6 +132,35 @@ public class GameManager : MonoBehaviour
         }
 
         audioManager.PlayBGM();
+    }
+
+    private void RunOver()
+    {
+        hudManager.DisplayGameOver();
+
+        if (gameOverTimer >= 0f)
+        {
+            gameOverTimer -= Time.deltaTime;
+        }
+        else
+        {
+            int storedScore = PlayerPrefs.GetInt("HighScore");
+            float storedTime = PlayerPrefs.GetFloat("HighScoreTimer");
+
+            if (storedScore < totalScore)
+            {
+                PlayerPrefs.SetInt("HighScore", totalScore);
+                PlayerPrefs.SetFloat("HighScoreTimer", highScoreTimer);
+            }
+
+            if (storedScore == totalScore && storedTime > highScoreTimer)
+            {
+                PlayerPrefs.SetInt("HighScore", totalScore);
+                PlayerPrefs.SetFloat("HighScoreTimer", highScoreTimer);
+            }
+
+            SceneManager.LoadScene("StartScene");
+        }
     }
 
     private void SpawnCherry()
@@ -186,5 +219,16 @@ public class GameManager : MonoBehaviour
     {
         lifeCount--;
         hudManager.SetLife(lifeCount);
+
+        if (lifeCount <= 0)
+        {
+            EndGame();
+        }
+    }
+
+    public void EndGame()
+    {
+        currentRoundState = RoundState.Over;
+        gameOverTimer = gameOverInterval;
     }
 }

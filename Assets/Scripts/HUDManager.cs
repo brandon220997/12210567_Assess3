@@ -13,6 +13,7 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private Image Life2;
     [SerializeField] private Image Life3;
     [SerializeField] private TextMeshProUGUI Intro;
+    [SerializeField] private TextMeshProUGUI GameOver;
 
     public void SetScore(int score)
     {
@@ -101,5 +102,10 @@ public class HUDManager : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
         float milliSeconds = (timeToDisplay % 1) * 1000;
         GameTime.text = string.Format("{0:00}:{1:00}:{2:000}", minutes, seconds, milliSeconds);
+    }
+
+    public void DisplayGameOver()
+    {
+        GameOver.gameObject.SetActive(true);
     }
 }
